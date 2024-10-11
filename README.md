@@ -34,7 +34,7 @@ node src/index.js
 ```bash
 cd client
 ```
-2. Installs required packages for the frontend.
+2. Install the required packages for the frontend.
 ```bash
 npm install
 ```
@@ -50,7 +50,7 @@ npm start
 
 ![dark_mode](../main/project_images/DarkMode.jpeg)
 
-2. chatbot - This dashboard integrates a chatbot feature, enabling seamless interaction with CompliBot for real-time compliance assistance. Users can easily ask questions, receive guidance, and stay updated on compliance metrics, all within the dashboard—enhancing productivity and ensuring quick access to critical information.
+2. Chatbot - This dashboard integrates a chatbot feature, enabling seamless interaction with CompliBot for real-time compliance assistance. Users can easily ask questions, receive guidance, and stay updated on compliance metrics, all within the dashboard—enhancing productivity and ensuring quick access to critical information.
 
 ![chatbot](../main/project_images/ChatBot.jpeg)
 
