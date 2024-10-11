@@ -25,9 +25,11 @@ const ChatModal: React.FC<ChatModalProps> = ({ closeChatbot }) => {
 
   return (
     <Modal open={true} onClose={closeChatbot}>
-      <Box className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-lg shadow-lg w-[400px] h-[600px] flex flex-col">
-        <div className="mb-4 flex justify-between items-center border-b pb-3">
-          <h2 className="text-xl font-bold">CompliBot</h2>
+      <Box className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white dark:bg-[#1E243F] p-6 rounded-lg shadow-lg w-[400px] h-[600px] flex flex-col">
+        <div className="mb-4 flex justify-between items-center border-b pb-3 dark:border-gray-600">
+          <h2 className="text-xl font-bold text-black dark:text-white">
+            CompliBot
+          </h2>
           <button onClick={closeChatbot} className="text-red-500 font-bold">
             X
           </button>
@@ -43,10 +45,10 @@ const ChatModal: React.FC<ChatModalProps> = ({ closeChatbot }) => {
               }`}
             >
               <div
-                className={`p-3 rounded-lg text-white max-w-xs ${
+                className={`p-3 rounded-lg  max-w-xs ${
                   message.from === "bot"
-                    ? "bg-[#40534C]"
-                    : "bg-gray-300 text-black"
+                    ? "bg-[#40534C] text-white dark:bg-[#2A3A3C]"
+                    : "bg-gray-300 text-black dark:bg-[#505050] dark:text-white"
                 }`}
               >
                 {message.text}
@@ -55,19 +57,19 @@ const ChatModal: React.FC<ChatModalProps> = ({ closeChatbot }) => {
           ))}
         </div>
 
-        <div className="border-t pt-3 flex items-center space-x-3">
+        <div className="border-t pt-3 flex items-center space-x-3 dark:border-gray-600">
           <input
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             placeholder="Type your message..."
-            className="flex-grow border rounded-lg p-2 focus:outline-none focus:border-[#40534C] transition"
+            className="flex-grow border rounded-lg p-2 focus:outline-none focus:border-[#40534C] transition dark:bg-[#2A3A3C] dark:text-white"
             onKeyDown={(e) => {
               if (e.key === "Enter") handleSendMessage();
             }}
           />
           <button
-            className="border text-[#40534C] p-2 rounded-lg hover:bg-[#40534C] hover:text-white transition"
+            className="border text-[#40534C] p-2 rounded-lg hover:bg-[#40534C] hover:text-white transition dark:border-gray-600 dark:hover:bg-[#505050] dark:hover:text-white"
             onClick={handleSendMessage}
           >
             <SendIcon />
