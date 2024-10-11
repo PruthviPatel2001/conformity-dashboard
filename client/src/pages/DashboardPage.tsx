@@ -11,7 +11,7 @@ import {
   DoughnutChart,
   LineChart,
   BarChart,
-  ProfileMenu,
+  ProfileDropdown,
   Loader,
   ErrorComponent,
   SearchBar,
@@ -208,7 +208,7 @@ const DashboardPage = () => {
             </Tooltip>
           </div>
 
-          <ProfileMenu />
+          <ProfileDropdown />
         </div>
       </div>
 

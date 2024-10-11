@@ -20,7 +20,7 @@ const ProfileMenu: React.FC = () => {
     <div>
       <IconButton onClick={handleClick}>
         <Avatar alt="Pruthvi Patel" src="" />
-        <KeyboardArrowDownIcon />
+        <KeyboardArrowDownIcon className="dark:text-white" />
       </IconButton>
       <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
         <MenuItem onClick={handleClose}>View Profile</MenuItem>

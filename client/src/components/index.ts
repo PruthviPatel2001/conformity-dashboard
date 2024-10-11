@@ -5,7 +5,7 @@ import DoughnutChart from "./charts/DoughnutChart";
 import LineChart from "./charts/LineChart";
 import BarChart from "./charts/BarChart";
 import Chatbot from "./chatbot/ChatBot";
-import ProfileMenu from "./dashboard/profileMenu";
+import ProfileDropdown from "./dashboard/ProfileDropdown";
 import ChatbotModal from "./chatbot/ChatModal";
 import Loader from "./common/Loader";
 import ErrorComponent from "./common/ErrorMessage";
@@ -21,7 +21,7 @@ export {
   LineChart,
   BarChart,
   Chatbot,
-  ProfileMenu,
+  ProfileDropdown,
   ChatbotModal,
   Loader,
   ErrorComponent,
