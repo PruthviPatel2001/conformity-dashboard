@@ -1,7 +1,7 @@
 import React from "react";
 import DesktopMacOutlinedIcon from "@mui/icons-material/DesktopMacOutlined";
 
-const DeviceWarning = () => {
+const DeviceWarning: React.FC = () => {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="p-6 md:p-8 flex flex-col justify-center items-center">

@@ -188,7 +188,7 @@ const DashboardPage = () => {
   ) : (
     <div className="p-6 pl-0 dark:text-white">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-2xl font-bold dark:text-white">
+        <h1 className="text-2xl font-bold">
           Welcome back,
           <br />
           <span className="text-4xl">Pruthvi</span>
@@ -208,9 +208,7 @@ const DashboardPage = () => {
             </Tooltip>
           </div>
 
-          <div>
-            <ProfileMenu />
-          </div>
+          <ProfileMenu />
         </div>
       </div>
 
@@ -260,7 +258,10 @@ const DashboardPage = () => {
         </div>
 
         <div className="col-span-3 shadow-md bg-[#387FF2] pl-0 rounded-lg overflow-y-auto">
-          <ActionItemsCard pendingCount={3} actionItems={actionItems} />
+          <ActionItemsCard
+            pendingCount={actionItems.length}
+            actionItems={actionItems}
+          />
         </div>
       </div>
     </div>

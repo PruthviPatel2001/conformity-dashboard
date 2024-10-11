@@ -18,7 +18,7 @@ const ActionItemsCard: React.FC<ActionItemsCardProps> = ({
   return (
     <div className=" rounded-lg  p-4 overflow-auto h-[400px]">
       <h2 className="text-xl text-white font-semibold mb-2">Action Items</h2>
-      <p className=" text-white mb-4">Pending: {pendingCount}</p>
+      <p className=" text-white mb-4">Total Pending: {pendingCount}</p>
       <ul className="space-y-4">
         {actionItems.map((item, index) => (
           <li
@@ -30,8 +30,8 @@ const ActionItemsCard: React.FC<ActionItemsCardProps> = ({
                 {index + 1}. {item.title}
               </span>
             </div>
-            <button className="flex items-center justify-center w-8 h-8 rounded-full transition-colors hover:bg-white border">
-              <ArrowForwardIosOutlinedIcon className="text-white hover:text-[#003C43] rounded-lg p-1 text-xl" />
+            <button className="flex items-center justify-center w-8 h-8 rounded-full transition-colors text-white  hover:bg-white border hover:text-[#387FF2]">
+              <ArrowForwardIosOutlinedIcon className=" rounded-lg p-1 text-xl" />
             </button>
           </li>
         ))}

@@ -1,7 +1,7 @@
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 
-const SearchBar = () => {
+const SearchBar: React.FC = () => {
   return (
     <div className="relative">
       <input

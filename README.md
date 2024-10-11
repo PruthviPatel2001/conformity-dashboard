@@ -1,50 +1,63 @@
-
 # Conformity Dashboard
+
 ## Overview
 
 This is a dashboard application built with a Node.js Express backend and a React and TypeScript frontend. It provides insights and analytics through various components, focusing on compliance metrics as part of the assessment for the conformity evaluation process. The application visualizes key compliance data, helping organizations track and manage their compliance status effectively.
 
 ## Folder Structure
 
-── /client          # React and TypeScript frontend application
+─ /client # React and TypeScript frontend application
 
-── /server          # Node.js and Expressjs backend application
-
+─ /server # Node.js and Expressjs backend application
 
 ## Prerequisites
+
 - Node.js (version 14 or higher)
 - npm or yarn (for package management)
 
 ## Setup server
+
 1. Changes to the server folder.
+
 ```bash
    cd server
 ```
+
 2. Installs required packages for the backend.
+
 ```bash
 npm install
 ```
+
 3. Runs the backend application.
+
 ```bash
 node src/index.js
 ```
 
 ## Setup client
+
 1. Changes to the client folder.
+
 ```bash
 cd client
 ```
+
 2. Install the required packages for the frontend.
+
 ```bash
 npm install
 ```
+
 3. Launches the React application.
+
 ```bash
 npm start
 ```
 
 ## Features
-1. The dashboard supports both light and dark modes,  offering users a personalized and comfortable viewing experience that adapts to various environments for improved usability.
+
+1. The dashboard supports both light and dark modes, offering users a personalized and comfortable viewing experience that adapts to various environments for improved usability.
 
 ![light_mode](../main/project_images/LightMode.jpeg)
 

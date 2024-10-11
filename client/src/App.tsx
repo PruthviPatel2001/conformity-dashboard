@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Sidebar } from "./layout";
 import { DashboardPage } from "./pages";
 import { Chatbot, DeviceWarning } from "./components";
