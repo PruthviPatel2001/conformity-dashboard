@@ -6,16 +6,24 @@ This is a dashboard application built with a Node.js Express backend and a React
 
 ## Folder Structure
 
-─ /client # React and TypeScript frontend application
+── /client # React and TypeScript frontend application
 
-─ /server # Node.js and Expressjs backend application
+── /server # Node.js and Express backend application
 
 ## Prerequisites
 
 - Node.js (version 14 or higher)
 - npm or yarn (for package management)
 
-## Setup server
+## Project Setup
+
+### Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+### Setup server
 
 1. Changes to the server folder.
 
@@ -35,7 +43,7 @@ npm install
 node src/index.js
 ```
 
-## Setup client
+### Setup client
 
 1. Changes to the client folder.
 
@@ -43,7 +51,7 @@ node src/index.js
 cd client
 ```
 
-2. Install the required packages for the frontend.
+2. Installs required packages for the frontend.
 
 ```bash
 npm install
@@ -59,20 +67,20 @@ npm start
 
 1. The dashboard supports both light and dark modes, offering users a personalized and comfortable viewing experience that adapts to various environments for improved usability.
 
-![light_mode](../main/project_images/LightMode.jpeg)
+![light_mode](../main/project images/Light Mode.png)
 
-![dark_mode](../main/project_images/DarkMode.jpeg)
+![dark_mode](../main/project images/Dark Mode.png)
 
-2. Chatbot - This dashboard integrates a chatbot feature, enabling seamless interaction with CompliBot for real-time compliance assistance. Users can easily ask questions, receive guidance, and stay updated on compliance metrics, all within the dashboard—enhancing productivity and ensuring quick access to critical information.
+2. chatbot - This dashboard integrates a chatbot feature, enabling seamless interaction with CompliBot for real-time compliance assistance. Users can easily ask questions, receive guidance, and stay updated on compliance metrics, all within the dashboard—enhancing productivity and ensuring quick access to critical information.
 
-![chatbot](../main/project_images/ChatBot.jpeg)
+![chatbot](../main/project images/Chat Bot.png)
 
 3. The dashboard features interactive charts that visualize key compliance metrics. For instance, the Compliance Trend (This Year) component displays trends over time with a line chart. It also includes metrics like the 85% Compliance Rate (Current Month), along with performance trends such as Up 5% from last month, dynamically calculated from the data, enabling users to easily track compliance progress at a glance.
 
-![line chart](../main/project_images/LineChart.jpeg)
+![line chart](../main/project images/Line Chart.png)
 
-![bar chart](../main/project_images/BarChart.jpeg)
+![bar chart](../main/project images/Bar Chart.png)
 
-![pie chart](../main/project_images/DoughnutChart.jpeg)
+![pie chart](../main/project images/Doughnut Chart.png)
 
 4. Re-fresh button: The dashboard includes a Refresh button on the top right that allows users to re-fetch data from the API without performing a hard refresh. This approach prevents the entire component from re-rendering, leading to a smoother user experience
