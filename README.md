@@ -8,7 +8,7 @@ This is a dashboard application built with a Node.js Express backend and a React
 
 ── /client          # React and TypeScript frontend application
 
-── /server          # Node.js and Express backend application
+── /server          # Node.js and Expressjs backend application
 
 
 ## Prerequisites
