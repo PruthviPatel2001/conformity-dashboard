@@ -1,0 +1,28 @@
+/* src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f4f7;
+  color: #2f3645;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Responsive Media Query */
+
+/* Handling both small laptop and tablet */
+@media (min-width: 768px) and (max-width: 1280px) {
+  html {
+    font-size: 75%;
+  }
+}
