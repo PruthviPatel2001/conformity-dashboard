@@ -7,7 +7,7 @@ import HistoryEduIcon from "@mui/icons-material/HistoryEdu";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
 import Tooltip from "@mui/material/Tooltip";
-import DarkModeToggle from "../components/DarkmodeToogle";
+import { DarkModeToggle } from "../components";
 
 const Sidebar = () => {
   const location = useLocation();

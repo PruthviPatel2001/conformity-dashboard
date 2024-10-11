@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import SearchIcon from "@mui/icons-material/Search";
 import SportsScoreIcon from "@mui/icons-material/SportsScore";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import WarningIcon from "@mui/icons-material/Warning";
@@ -15,6 +14,7 @@ import {
   ProfileMenu,
   Loader,
   ErrorComponent,
+  SearchBar,
 } from "../components";
 import CachedOutlinedIcon from "@mui/icons-material/CachedOutlined";
 import { Tooltip } from "@mui/material";
@@ -171,7 +171,7 @@ const DashboardPage = () => {
   };
 
   useEffect(() => {
-    loadData(); // Initial data load
+    loadData();
 
     // Set an interval to load data every 1 min
     const intervalId = setInterval(() => {
@@ -195,14 +195,7 @@ const DashboardPage = () => {
         </h1>
 
         <div className="flex items-center space-x-4">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Search..."
-              className="border border-gray-300 rounded-md p-1 pl-10 focus:outline-none focus:border-blue-400 shadow-sm"
-            />
-            <SearchIcon className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-500" />
-          </div>
+          <SearchBar />
 
           <div className="flex items-center space-x-2 text-[#b8b7b7]">
             <CalendarMonthIcon fontSize="small" />

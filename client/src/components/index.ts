@@ -7,9 +7,11 @@ import BarChart from "./charts/BarChart";
 import Chatbot from "./chatbot/ChatBot";
 import ProfileMenu from "./dashboard/profileMenu";
 import ChatbotModal from "./chatbot/ChatModal";
-import Loader from "./Loader";
-import ErrorComponent from "./ErrorMessage";
-import DeviceWarning from "./DeviceWarning";
+import Loader from "./common/Loader";
+import ErrorComponent from "./common/ErrorMessage";
+import DeviceWarning from "./common/DeviceWarning";
+import DarkModeToggle from "./common/DarkmodeToogle";
+import SearchBar from "./common/SearchBar";
 
 export {
   MetricsCard,
@@ -24,4 +26,6 @@ export {
   Loader,
   ErrorComponent,
   DeviceWarning,
+  DarkModeToggle,
+  SearchBar,
 };
