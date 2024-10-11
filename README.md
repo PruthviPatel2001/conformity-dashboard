@@ -67,20 +67,20 @@ npm start
 
 1. The dashboard supports both light and dark modes, offering users a personalized and comfortable viewing experience that adapts to various environments for improved usability.
 
-![light_mode](../main/project images/Light Mode.png)
+![light_mode](../main/project_images/LightMode.jpeg)
 
-![dark_mode](../main/project images/Dark Mode.png)
+![dark_mode](../main/project_images/DarkMode.jpeg)
 
-2. chatbot - This dashboard integrates a chatbot feature, enabling seamless interaction with CompliBot for real-time compliance assistance. Users can easily ask questions, receive guidance, and stay updated on compliance metrics, all within the dashboard—enhancing productivity and ensuring quick access to critical information.
+2. Chatbot - This dashboard integrates a chatbot feature, enabling seamless interaction with CompliBot for real-time compliance assistance. Users can easily ask questions, receive guidance, and stay updated on compliance metrics, all within the dashboard—enhancing productivity and ensuring quick access to critical information.
 
-![chatbot](../main/project images/Chat Bot.png)
+![chatbot](../main/project_images/ChatBot.jpeg)
 
 3. The dashboard features interactive charts that visualize key compliance metrics. For instance, the Compliance Trend (This Year) component displays trends over time with a line chart. It also includes metrics like the 85% Compliance Rate (Current Month), along with performance trends such as Up 5% from last month, dynamically calculated from the data, enabling users to easily track compliance progress at a glance.
 
-![line chart](../main/project images/Line Chart.png)
+![line chart](../main/project_images/LineChart.jpeg)
 
-![bar chart](../main/project images/Bar Chart.png)
+![bar chart](../main/project_images/BarChart.jpeg)
 
-![pie chart](../main/project images/Doughnut Chart.png)
+![pie chart](../main/project_images/DoughnutChart.jpeg)
 
 4. Re-fresh button: The dashboard includes a Refresh button on the top right that allows users to re-fetch data from the API without performing a hard refresh. This approach prevents the entire component from re-rendering, leading to a smoother user experience
